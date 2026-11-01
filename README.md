@@ -15,9 +15,7 @@ A small project and task manager with a Next.js frontend and a Node.js/Express A
    npm install
    ```
 
-2. Copy `backend/.env.example` to `backend/.env` and set `MONGODB_URI` and a private `JWT_SECRET`.
-3. Copy `frontend/.env.example` to `frontend/.env.local` if the API is not at `http://localhost:4000/api`.
-4. Start both apps from the project root:
+2. Start both apps from the project root:
 
    ```bash
    npm run dev
